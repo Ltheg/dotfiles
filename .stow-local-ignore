@@ -1,0 +1,41 @@
+# GNU Stow ignore file
+# Files and directories matching these patterns won't be symlinked
+
+# Git files
+\.git
+\.gitignore
+\.gitmodules
+
+# Documentation
+README\.md
+LICENSE
+CHANGELOG\.md
+
+# Scripts
+install\.sh
+backup\.sh
+uninstall\.sh
+
+# Stow-specific files
+\.stow-local-ignore
+
+# macOS files
+\.DS_Store
+\.AppleDouble
+\.LSOverride
+
+# Editor files
+\.vscode
+\.idea
+*~
+*.swp
+*.swo
+\.*.swp
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Claude Code settings (project-specific)
+\.claude
