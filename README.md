@@ -28,7 +28,7 @@ On a new machine, clone this repository and run the installation script:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/dotfiles.git ~/dotfiles
+git clone https://github.com/Ltheg/dotfiles.git ~/dotfiles
 
 # Navigate to the directory
 cd ~/dotfiles
